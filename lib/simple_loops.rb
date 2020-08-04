@@ -8,7 +8,7 @@ counter = 0
   end
 end
 
-loop_message_n_times(message,Integer)
+def loop_message_n_times(message,Integer)
 counter = 0
  
   while counter<Integer do
