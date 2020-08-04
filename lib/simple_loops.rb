@@ -7,3 +7,7 @@ counter = 0
     counter += 1
   end
 end
+
+loop_message_n_times(message,Integer)
+
+end
