@@ -8,10 +8,10 @@ counter = 0
   end
 end
 
-def loop_message_n_times(message,Integer)
+def loop_message_n_times(message,int)
 counter = 0
  
-  while counter<Integer do
+  while counter<int do
     puts message
     counter += 1
   end
