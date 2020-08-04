@@ -9,5 +9,10 @@ counter = 0
 end
 
 loop_message_n_times(message,Integer)
-
+counter = 0
+ 
+  while counter<Integer do
+    puts message
+    counter += 1
+  end
 end
