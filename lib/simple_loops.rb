@@ -30,7 +30,7 @@ def return_string_array(array)
 counter = 0
 strarr=[]
   while array[counter] do
-    strarr << String.array[counter]
+    strarr << array[counter]
     counter += 1
   end
   return strarr
